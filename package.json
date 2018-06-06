@@ -1,6 +1,6 @@
 {
   "name": "@stencil/redux",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Stencil Redux - A simple redux-connector for Stencil-built web components",
   "main": "dist/stencilredux.js",
   "browser": "dist/stencilredux.js",
@@ -28,6 +28,7 @@
     "@types/jest": "^23.0.0",
     "jest": "^23.1.0",
     "np": "^3.0.4",
+    "redux": "^4.0.0",
     "ts-jest": "^22.4.6",
     "typescript": "^2.9.1"
   },

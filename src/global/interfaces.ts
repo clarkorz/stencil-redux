@@ -1,7 +1,6 @@
-export interface Store {
-  dispatch: () => any;
-  subscribe: (cb: Function) => any;
-  getState: () => any;
+import { Store as ReduxStore } from 'redux';
+
+export interface Store extends ReduxStore {
   getStore: () => any;
   setStore: (any: any) => void;
   mapStateToProps: (component: any, props: any) => void;
